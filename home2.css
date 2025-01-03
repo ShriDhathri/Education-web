@@ -1,0 +1,112 @@
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    color: aliceblue;
+}
+
+
+header {
+    background-image: url(h4.jpg);
+    /* background-color: #333; */
+    color: #030303;
+    padding: 0px 0px;
+    height:790px;
+    width:2000px;
+    text-align: center;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-attachment: scroll;
+    background-position-x: fixed;
+    background-size: cover;
+    
+}
+/* Change the color of the icons to red */
+.fas, .far, .fab {
+    color: rgb(11, 8, 8);
+    height: 100px;
+    width: 50px;
+}
+
+/* Increase the size of the icons */
+.fas, .far, .fab {
+    font-size: 30px;
+    height: 100px;
+    width: 50px;
+}
+
+nav{
+    margin: 5px;
+    padding: 10px;
+    /* background-color: rgba(62, 61, 61, 0.01); */
+    color: rgb(252, 252, 253);
+    text-align:center ;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 50px;
+    /* background-color: white; */
+    color: black;
+}
+
+nav li {
+    display: inline;
+    margin-left:20px;
+    margin-right: 20px;
+    font-size:25px;
+    text-align: center;
+    /* background-color: white; */
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #050505;
+    font-size:25px;
+    text-align: center;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+
+main {
+    text-align: center;
+    padding:0px;
+}
+.fa::before{
+    background-color: #fff;
+    color:#090808;
+    font-size:25px;
+   
+   
+}
+
+
+#orderButton {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#orderButton:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
